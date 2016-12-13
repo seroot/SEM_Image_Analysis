@@ -99,7 +99,6 @@ class SEM_IM(object):
     def run_analysis(self):
         # Define threshold
         self.thresh = mh.thresholding.otsu(self.image)
-        self.thresh = mh.thresholding.rc(self.image) - 7
         print self.thresh
         self.labeled, self.nr_objects = mh.label(self.image > self.thresh)# Distinguish different Islands
         self.labeled_orig, self.nr_objects_orig = mh.label(self.image > self.thresh)# Distinguish different Islands
