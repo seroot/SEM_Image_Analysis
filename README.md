@@ -3,6 +3,7 @@ Python based image analysis code for nanoisland characterization
 
 
 This code consists of 3 parts:
+
 	1) Main.py
 		Script defining how SEM files are read in and operated upon.
 		run as:
@@ -15,6 +16,7 @@ This code consists of 3 parts:
 			4) Deposition Temperature (300K)
 			5) Magnification (100X)
 			6) Index (1)
+
 	2) SEM_IM.py
 		- Module defining a SEM_IM class that contains all the 
 		information pertaining to the image analysis of a single
